@@ -1,6 +1,6 @@
 pragma solidity ^0.4.2;
 
-import "./DappToken.sol";
+import "./K.sol";
 
 contract DappTokenSale {
     address admin;
