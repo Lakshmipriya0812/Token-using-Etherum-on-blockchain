@@ -10,7 +10,7 @@ contract KITTokenSale {
 
     event Sell(address _buyer, uint256 _amount);
 
-    function KITTokenSale(DappToken _tokenContract, uint256 _tokenPrice) public {
+    function KITTokenSale(KITToken _tokenContract, uint256 _tokenPrice) public {
         admin = msg.sender;
         tokenContract = _tokenContract;
         tokenPrice = _tokenPrice;
